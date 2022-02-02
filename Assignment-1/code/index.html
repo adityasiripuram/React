@@ -14,7 +14,23 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+const resposiveUI=(
+<div id="container">
+  <div className="row one">
+    <div className="content"></div>
+    <div className="content"></div>
+  </div>
+  <div className="row two">
+    <div className="content"></div>
+  </div>
+  <div className="row three">
+    <div className="content"></div>
+    <div className="content"></div>
+    <div className="content"></div>
+  </div>
+  </div>
+);
+ ReactDOM.render(resposiveUI,document.getElementById('root'));
 
 </script>
 <!--
@@ -27,5 +43,6 @@
      You can also use React without JSX, in which case you can remove Babel:
      https://reactjs.org/docs/react-without-jsx.html
    -->
+
 </body>
 </html>
