@@ -37,7 +37,7 @@ const Appointment= {
       </div>
       <div className='customer-info'>
         
-         <p><strong>Appointment :</strong> <label>{Appointment.Time} ({Appointment.Date})</label></p> 
+         <p><strong>Appointment :</strong> <label>{Appointment.Time}</label></p> 
           <p><strong>Email :</strong> <label>{Appointment.Email}</label></p> 
           <p><strong>Phone:</strong> <label>{Appointment.phonenumber}</label></p> 
         
