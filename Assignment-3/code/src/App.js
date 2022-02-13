@@ -11,9 +11,8 @@ function App() {
 const Appointment= {
   name: 'Alan Ford',
   Number:'0000123099',
-  Time:'10:00',
+  Time:'9:00 (24-05-2016)',
   newTime:'11:00 ',
-  Date:'02/02/2022',
   newDate:'03/02/2022',
   Email:'qwerty0987@gmail.in',
   phonenumber: '+91000054524',
@@ -58,7 +57,7 @@ const Appointment= {
           <h5>{Appointment.newTime}  ({Appointment.newDate})</h5>
         </div>
       </div>
-      <div className='product-info'>
+      <div className='product-list'>
         <input type="checkbox"></input>
         <img className='picture' src={Appointment.productImg} width='100' height='100' />
         <div className='description'>
