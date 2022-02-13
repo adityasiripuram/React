@@ -5,8 +5,7 @@
       
 }
 
-.top-info,.customer-info,.order-info,.product-info{
-    
+.top-info,.customer-info,.order-info,.product-list{
     margin: 5px; 
     padding: 10px;
 }
@@ -52,9 +51,7 @@ button{
     color:rgb(119, 117, 117);
 }
 
-
-
-.product-info{
+.product-list{
     border: 1px solid gray;
     display: flex;
     flex-direction: row;
