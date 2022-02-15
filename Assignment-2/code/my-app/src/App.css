@@ -1,17 +1,36 @@
-.App {
+.container{
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.App-logo{
+  border-radius: 10%;
+  margin: 15px 0px 0px 0px;
+}
+ h1{
+  color: #61dafb;
+}
+.text{
+  position: absolute;
+  text-align: left;
+  margin-left: 630px;
+}
+.profile-info{
+  margin: 5px 0px;
+}
+.profile-info label,.profile-info strong{
+  display: block;
+ 
 }
 
+
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} 
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +55,4 @@
     transform: rotate(360deg);
   }
 }
+*/
