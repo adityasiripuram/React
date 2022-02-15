@@ -47,7 +47,6 @@ const Postview = () => {
 
                   <img className='iconss' alt='notification' src={dots}></img>
                 </div>
-
                 <img src={post.PostImage} />
                 <div>
                 <div className='btn'>
