@@ -1,0 +1,28 @@
+{
+    "user": [
+        {
+            "name": "Siva",
+            "location": "Bengaluru",
+            "likes":564,
+            "description": "Feeling nostalgic!! #memoriesForever", 
+            "PostImage": "https://picsum.photos/500/300",
+            "date": "12 February 2022"
+        },
+        {
+            "name": "Neeraj",
+            "location": "Pune",
+            "likes": 330,
+            "description": "Beautiful weather,peaceful mind!! #wanderlust",
+            "PostImage": "https://picsum.photos/500/301",
+            "date": "15 January 2022"
+        },
+        {
+            "name": "Rahul",
+            "location": "Hyderabad",
+            "likes": 430,
+            "description": "Isn't it the Most beautiful picture ever!",
+            "PostImage": "https://picsum.photos/500/302",
+            "date": "18 December 2021"
+        }
+    ]
+}

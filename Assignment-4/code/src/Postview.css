@@ -1,11 +1,117 @@
-.site-container{
-  text-align: center;
+.container{
+  margin: 5px ;
+  border: 1px solid lightgrey;
 }
-html {
-  font-size: 14px;
+.head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position:fixed;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  border-bottom:1px solid rgb(177, 173, 173) ;
+  padding: 8px ;
+
 }
-body {
-  line-height: 1.5;
-  color: black;
-  margin:0;
-} 
+a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: xx-large;
+  font-family:  monospace;
+  align-content: center;
+  color: cadetblue;
+  padding: 15px;
+  position: absolute;
+}
+#insta-icon{
+  height: 60px;
+  width: 60px;
+}
+#logo{
+  height: 50px;
+  width: 50px;
+}
+input{
+  border: none;
+  border-radius: 10px;
+}
+.input-top{
+  background: rgb(207, 245, 245);
+  width: 400px;
+  height: 30px;
+  
+}
+.head-1{
+  margin-right: 15px;
+}
+.post-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-right{
+  display: flex;
+  justify-content: space-between;
+  padding:0px 0px 5px 5px;
+}
+.text-bottom{
+  padding:0px 10px 10px 10px;
+}
+.right{
+  margin:10px;
+}
+label{
+  color: gray;
+}
+.iconss{
+  width: 25px;
+  height: 25px;
+  padding: 5px 0px;
+  margin: 5px;
+
+}
+.btn{
+  padding: 5px 5px 0px 5px ;
+  display: flex;
+  justify-content: space-between;
+}
+.text-bottom label{
+  font-size: x-small;
+}
+.likes-date{
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+#insta-icon:hover{
+  cursor:help;
+}
+#logo:hover{
+  cursor: grab;
+}
+.iconss:hover{
+  cursor: pointer;
+}
+.container:nth-child(1){
+  margin-top: 90px;
+}
+/* ========================= */
+@media screen and (max-device-width:600px){
+  .input-top{
+    visibility: hidden;
+  }
+ 
+}
+@media screen and (max-device-width:733px){
+  .head a{
+    visibility: hidden;
+  } 
+}
+@media screen and (max-device-width:847px){
+  .input-top{
+    width: 150px;
+  }   
+}
